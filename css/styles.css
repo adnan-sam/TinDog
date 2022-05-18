@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat','sans-serif';
+    text-align: center;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+/* Refractoring the code and I'm doing this at last section of my Bootstrap in course */
+.coloured-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+/* Title section */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat','sans-serif';
+}
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    /* colouring */
+    color: white;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 550;
+}
+p {
+    color: #8f8f8f;
+}
+.rotate-image{
+    width: 60%;
+    transform:rotate(25deg);
+    position: absolute;
+    right:30%
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features Section  */
+#features {
+    position: relative;
+}
+.feature-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.feature-box {
+    padding: 5%;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+} 
+/* Testimonial section */
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 550;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 20px;
+}
+.press-img {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.to-sum-up {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+/* For Responsiveness using media query */
+@media (max-width : 1208px) {
+    .rotate-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width : 992px ) {
+    #title .container-fluid
+    {
+        text-align: center;
+    }
+}
+
+/* The footer challenge */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.social-media-handles {
+    margin: 20px 10px;
+}
