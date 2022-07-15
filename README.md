@@ -1,1 +1,2 @@
-TinDog Starting Files
+#TinDog
+A frontend design of Tindog
